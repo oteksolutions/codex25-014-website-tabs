@@ -31,17 +31,19 @@ body {
   padding-bottom: 3rem;
 }
 
-
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 5px 20px var(--shadow-color);
 }
+
+
+
+
 
 h1 {
   text-align: center;
