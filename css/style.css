@@ -97,12 +97,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
-
-
-
-
-
 /* Tabs styling */
 .tabs {
   width: 100%;
@@ -114,34 +108,47 @@ a:hover {
   display: none;
 }
 
-.tabs ul {
+.tabs-list {
   list-style: none;
   display: flex;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid var(--border-color);
   position: relative;
 }
 
-.tabs li {
+.tabs-list li {
   flex: 1;
   text-align: center;
 }
 
 .tabs label {
-  display: block;
-  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 0;
   cursor: pointer;
   transition: all 0.3s;
-  color: #888;
+  color: var(--text-light);
+  position: relative;
+}
+
+.tabs label i {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .tabs label:hover {
-  color: #2c3e50;
+  color: var(--primary-color);
+  background-color: rgba(52, 152, 219, 0.05);
 }
 
 .tabs label span {
-  display: block;
   font-weight: bold;
+  font-size: 1.1rem;
 }
+
+
+
+
 
 /* The slider that highlights the active tab */
 .slider {
