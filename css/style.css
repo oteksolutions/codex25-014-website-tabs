@@ -65,6 +65,40 @@ h1:after {
   border-radius: 2px;
 }
 
+h2 {
+  margin-bottom: 1.2rem;
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+}
+
+h3 {
+  margin-bottom: 0.8rem;
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+
+p, ul {
+  margin-bottom: 1.2rem;
+  color: var(--text-color);
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+
+
 
 
 
