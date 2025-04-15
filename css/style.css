@@ -146,10 +146,6 @@ a:hover {
   font-size: 1.1rem;
 }
 
-
-
-
-
 /* The slider that highlights the active tab */
 .slider {
   position: relative;
@@ -159,11 +155,12 @@ a:hover {
 .slider .indicator {
   position: absolute;
   bottom: 0;
-  height: 3px;
-  background: #3498db;
+  height: 4px;
+  background: var(--primary-color);
   transition: all 0.3s ease-in-out;
   left: 0;
-  width: 25%; /* Since we have 4 tabs */
+  width: 25%;
+  border-radius: 2px 2px 0 0;
 }
 
 /* Content section */
@@ -174,7 +171,11 @@ a:hover {
 .content section {
   display: none;
   animation: fadeIn 0.5s ease-in-out;
+  padding: 1rem;
 }
+
+
+
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
